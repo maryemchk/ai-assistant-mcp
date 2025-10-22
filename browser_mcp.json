@@ -1,0 +1,40 @@
+{
+    "mcpServers": {
+        "playwright":{
+            "command": "npx",
+            "args":[
+                "@playwright/mcp@latest"
+            ]
+        },
+    "mcp_weather_server": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@isdaniel/mcp_weather_server",
+        "--key",
+        "08e2affb-05bd-465a-a5eb-3be113496207",
+        "--profile",
+        "thin-cougar-pNYfMg"
+      ]
+    },
+    "mcpsemanticscholar": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@hamid-vakilzadeh/mcpsemanticscholar",
+        "--key",
+        "08e2affb-05bd-465a-a5eb-3be113496207",
+        "--profile",
+        "thin-cougar-pNYfMg"
+      ]
+    }
+    }
+} 
