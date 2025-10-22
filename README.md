@@ -59,7 +59,7 @@ AIAssistantWithMCP/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/ai-assistant-mcp.git
+git clone https://github.com/maryemchk/ai-assistant-mcp.git
 cd ai-assistant-mcp
 
 # 2. Create a virtual environment
